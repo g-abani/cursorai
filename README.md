@@ -1,0 +1,2 @@
+# cursori
+Cursor AI Projects
