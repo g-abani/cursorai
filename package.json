@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Cursor AI Projects",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "smoke": "node src/cli.js 'What is 2*(10+5)? And current UTC time?'",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-abani/cursorai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-abani/cursorai/issues"
+  },
+  "homepage": "https://github.com/g-abani/cursorai#readme",
+  "dependencies": {
+    "@azure/core-auth": "^1.10.0",
+    "@azure/openai": "^2.0.0",
+    "dotenv": "^17.2.1",
+    "openai": "^5.15.0"
+  }
+}
